@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
 html {
     background-color: black;
 }
@@ -32,7 +34,6 @@ input {
     min-height: 50px;
     max-width: 50px;
     max-height: 50px;
-    ;
 }
 
 input:checked+label>div {
@@ -90,7 +91,8 @@ input:checked+label>div article {
     box-sizing: content-box;
     line-height: 410px;
     font-size: 46px;
-    color: red
+    color: red;
+    font-family: 'Koulen', cursive;
 }
 
 img {
@@ -99,6 +101,7 @@ img {
 
 p {
     visibility: hidden;
+    font-family: 'Koulen', cursive; 
 }
 
 .one {
