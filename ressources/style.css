@@ -74,17 +74,23 @@ input:checked+label>div img {
 }
 
 input:checked+label>div article {
-    display:block;
+    display: block;
     margin: 80px auto;
     text-align: center;
     border: 10px solid yellow;
     border-radius: 10px;
     position: absolute;
-    top: 50%;
+    top: 290px;
     left: 50%;
-    transform: translate(-50%,-50%);
-    background-color:white;
-    text-decoration:none;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(white, black);
+    text-decoration: none;
+    max-width: 410px;
+    min-width: 410px;
+    box-sizing: content-box;
+    line-height: 410px;
+    font-size: 46px;
+    color: red
 }
 
 img {
@@ -117,6 +123,21 @@ p {
     margin: auto;
     line-height: 48px;
     font-size: 46px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+
+}
+
+a:hover {
+    font-size: 54px;
+    box-shadow: 0px 10px 10px 10px lightgray, 0px -10px 10px 10px lightgray, 10px 0px 10px 10px lightgray, -10px 0px 10px 10px lightgray;
+}
+
+a {
+    display: block;
 }
 
 article {
