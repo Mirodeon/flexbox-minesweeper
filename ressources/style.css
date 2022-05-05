@@ -1,0 +1,70 @@
+html {
+    background-color: black;
+}
+
+header {
+    margin: 40px auto;
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+}
+
+main {
+    box-sizing: content-box;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    border: 10px ridge lightgrey;
+}
+
+div {
+    min-width: 50px;
+    box-sizing: border-box;
+    border: 1px dashed black;
+    margin: 0px 0px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.top {
+    border-top: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.bomb {
+    background-color: red;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    line-height: 48px;
+    font-size: 46px;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: red;
+}
