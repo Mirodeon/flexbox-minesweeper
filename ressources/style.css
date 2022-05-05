@@ -93,6 +93,7 @@ input:checked+label>div article {
     font-size: 46px;
     color: red;
     font-family: 'Koulen', cursive;
+    opacity: 0.5;
 }
 
 img {
