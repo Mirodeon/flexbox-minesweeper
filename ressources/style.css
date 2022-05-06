@@ -29,7 +29,8 @@ input {
 .click {
     min-width: 50px;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 4px ridge grey;
+    outline: 1px solid black ;
     margin: 0px 0px;
     min-height: 50px;
     max-width: 50px;
@@ -40,6 +41,7 @@ input:checked+label>div {
     min-width: 50px;
     box-sizing: border-box;
     border: 1px dashed black;
+    outline: none;
     margin: 0px 0px;
     min-height: 50px;
     max-width: 50px;
@@ -102,7 +104,7 @@ img {
 
 p {
     visibility: hidden;
-    font-family: 'Koulen', cursive; 
+    font-family: 'Koulen', cursive;
 }
 
 .one {
