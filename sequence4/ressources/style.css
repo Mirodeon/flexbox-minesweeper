@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+html {
+    background-color: black;
+}
+
+header {
+    margin: 40px auto;
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+}
+
+main {
+    box-sizing: content-box;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    border: 10px ridge lightgrey;
+}
+
+input {
+    display: none
+}
+
+.click {
+    min-width: 50px;
+    box-sizing: border-box;
+    border: 4px ridge grey;
+    outline: 1px solid black ;
+    margin: 0px 0px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+input:checked+label>div {
+    min-width: 50px;
+    box-sizing: border-box;
+    border: 1px dashed black;
+    outline: none;
+    margin: 0px 0px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+input:checked+label>div.top {
+    border-top: none;
+}
+
+input:checked+label>div.right {
+    border-right: none;
+}
+
+input:checked+label>div.bottom {
+    border-bottom: none;
+}
+
+input:checked+label>div.left {
+    border-left: none;
+}
+
+input:checked+label>div p {
+    visibility: visible;
+}
+
+input:checked+label>div.bomb {
+    background-color: red;
+}
+
+input:checked+label>div img {
+    visibility: visible;
+}
+
+input:checked+label>div article {
+    display: block;
+    margin: 80px auto;
+    text-align: center;
+    border: 10px solid yellow;
+    border-radius: 10px;
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(white, black);
+    text-decoration: none;
+    max-width: 410px;
+    min-width: 410px;
+    box-sizing: content-box;
+    line-height: 410px;
+    font-size: 46px;
+    color: red;
+    font-family: 'Koulen', cursive;
+    opacity: 0.5;
+}
+
+img {
+    visibility: hidden;
+}
+
+p {
+    visibility: hidden;
+    font-family: 'Koulen', cursive;
+}
+
+.one {
+    color: blue;
+    text-align: center;
+    margin: auto;
+    line-height: 48px;
+    font-size: 46px;
+}
+
+.two {
+    color: green;
+    text-align: center;
+    margin: auto;
+    line-height: 48px;
+    font-size: 46px;
+}
+
+.three {
+    color: red;
+    text-align: center;
+    margin: auto;
+    line-height: 48px;
+    font-size: 46px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+
+}
+
+a:hover {
+    font-size: 54px;
+    box-shadow: 0px 10px 10px 10px lightgray, 0px -10px 10px 10px lightgray, 10px 0px 10px 10px lightgray, -10px 0px 10px 10px lightgray;
+}
+
+a {
+    display: block;
+}
+
+article {
+    display: none;
+}
