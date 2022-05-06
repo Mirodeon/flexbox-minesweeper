@@ -93,7 +93,6 @@ input:checked+label>div article {
     box-sizing: content-box;
     line-height: 410px;
     font-size: 46px;
-    color: red;
     font-family: 'Koulen', cursive;
     opacity: 0.5;
 }
@@ -144,6 +143,7 @@ a:hover {
 
 a {
     display: block;
+    color: red;
 }
 
 article {
