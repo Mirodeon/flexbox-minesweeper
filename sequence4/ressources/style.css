@@ -98,11 +98,11 @@ input:checked+label>div article {
 }
 
 img {
-    visibility: visible;
+    visibility: hidden;
 }
 
 p {
-    visibility: visible;
+    visibility: hidden;
     font-family: 'Koulen', cursive;
 }
 
